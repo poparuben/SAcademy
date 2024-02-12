@@ -3,22 +3,28 @@
     padding: 0px;
   
  }
-body{
+
+body {
     margin:0;
    
     font-family: 'Roboto';
-    
+
 }
-
-
 /*----------ELEMENTS------------*/
 .btn{
+
     background-color:#5D8930;
     color: white;
     padding: 10px 30px;
     text-decoration: none;
     margin:10px 0px;
-    display: inline-block
+    display: inline-block;
+
+}
+.btn-main:hover{
+
+    background-color: #0A472E;
+    
 }
 
 /*----------NAV------------*/
@@ -55,13 +61,11 @@ body{
 .logoImg{
    max-width: 100px;
 }
-.leftNav a{
 
-}
 .divider{
     height: 100px;
 }
-/*----------FIRST SECTION-----------*/
+/*----------FIRST SECTION OF INDEX-----------*/
 .firstBg{
     background-color: lightblue;
     height: 100vh;
@@ -84,13 +88,7 @@ body{
     
     
 }
-/* .container{
-    
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
 
-} */
  .firstSectionCont{
     display: flex;
     max-width: 1200px;
@@ -171,13 +169,13 @@ border-radius: 20px;
 .productElementContainer{
     padding: 20px;
     height: -webkit-fill-available;
-    
-   
- 
-    
+    position:relative;
    
 }
-
+.productElementContainer .moreinfo{
+    position: absolute;
+    top:30px;
+}
 .productElementImg{
     width: 100%;
     border-bottom-style: solid;
@@ -544,20 +542,152 @@ iframe{
 /*----------SHOP PAGE-----------*/
 
 
-.gridParent{
-    height: 300px;
-    background-color: rebeccapurple;
-    display: grid;
-    grid-template-columns: 200px auto;
-    column-gap: 20px;
+.gridParentForShop{
+    
+   
+    display: flex;
+     
 }
-.gridParent .child1{
-    background-color: #0A472E;
+.gridParentForShop .child1{
+    flex: 30%;
+   
+
+
+}
+
+.shopContainer .sidebarContent{
+
+    background-color: #FAFBFC;
+    position: sticky;   
+    top:200px;
+    padding-top:10px;
+    border-radius: 10px;
+    /* padding-top: 40px; */
     
 }
-.gridParent .child2{
-    background-color: red;
+.sidebarContent .categorySection, .sidebarContent .priceSection{
+    margin: 30px;
+    background:white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+    border-radius: 5px;
+   
 }
+.categorySection h3, .priceSection h3{
+    border-bottom-style:solid ;
+    border-width: 1px;
+    border-color: #DADADA;
+    padding: 13px 15px;
+}
+
+
+
+.gridParentForShop .child1 .categoryList{
+  
+    list-style-type: none;  
+    padding: 5px 0px;
+    top:200px;
+}
+.gridParentForShop ul li a{
+    color: black;
+    text-decoration: none;
+    padding:15px 0px;
+}
+
+
+.gridParentForShop .child1  li{
+    
+   
+    padding:15px 10px;
+    
+
+    
+}
+.slidecontainer input{
+    width: 100%;
+}
+.slidecontainer{
+    padding:15px 10px;
+}
+
+.categoryList li:hover{
+    background-color: #F8F8F8;
+}
+ .simple{
+    background-color: #0A472E;
+    position: sticky;
+    top:0px;
+    padding: 10px 0px;
+    z-index: 9999999999999999999999999999999999999999999999;
+    
+}
+
+.secondSection .customtitleSection{
+
+    padding-top: 0px;
+}
+
+.shopContainer{
+
+    max-width: 1300px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.shopSortSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+    border-radius:20px;
+  }
+  dropbtn:hover {
+background-color: red;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;  cursor: pointer;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
 
 /*----------TEAM SECTION -----------*/
 
@@ -605,6 +735,16 @@ padding: 100px 0px;
         padding:20px;
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

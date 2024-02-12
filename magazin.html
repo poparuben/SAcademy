@@ -5,15 +5,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
 </head>
 <body>
-    <div class="gridParent">
+    
+    <div class="navbar simple">
+        <div class="navbarContainer">
+            <div class="leftNav">
+              <a href="./index.html">
+                <img class="logoImg" src="./img/logo.png" alt="" srcset="">
+              </a>
+            </div>
+            <div class="rightNav">
+                <ul class="navBtns">
+                    <li><a href="./magazin.html">Magazin</a></li>
+                    <li><a href="./aboutus.html">Despre Noi</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li>Cos</li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+
+<div class="shopContainer">
+
+  <div class="shopSortSection">
+    <div class="left">
+      <h3>50 Produse</h3>
+    </div>
+    <div class="right">
+      <div class="dropdown">
+        <button class="dropbtn">Sort by: <b>Populare</b> ICON</button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="gridParentForShop">
         <div class="child1">
+            <div class="sidebarContent">
+                <div class="categorySection">
+                    <h3>Categorii</h3>
+                    
+                    <ul class="categoryList">
+                        <li  onclick="location.href='#';" style="cursor: pointer;">Legume</li>
+                        <li  onclick="location.href='#';" style="cursor: pointer;">Frcte</li>
+                        <li  onclick="location.href='#';" style="cursor: pointer;">Miere</li>
+                        <li  onclick="location.href='#';" style="cursor: pointer;">Suc</li>         
+                    </ul>
+                </div>
+                <div class="priceSection">
+                    <h3>Pret</h3>
+                  <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                </div>
+                </div>
+                
+             </div>
 
         </div>
         <div class="child2">
 
+            <div class="secondSection">
+                
+                <div class="productsGrid">
+                  <div class="productElement" onclick="location.href='#';" style="cursor: pointer;">
+                    <div class="productElementContainer">
+                      <p class="moreinfo">5kg</p>
+                      <img class="productElementImg" src="./img/oranges.png" alt="oranges" srcset="">
+                      <div class="productElementInfo">
+                        <p class="productElementCat">Category</p>
+                        <p class="productElementName">Suc de Portocale</p>
+                        <p class="price">3 Lei</p>
+                      </div>
+                    </div>
+                 </div>
+                 <div class="productElement" onclick="location.href='#';" style="cursor: pointer;" >
+                  <div class="productElementContainer">
+                    <img class="productElementImg" src="./img/oranges.png" alt="oranges" srcset="">
+                    <div class="productElementInfo">
+                      <p class="productElementCat">Category</p>
+                      <p class="productElementName">Suc de Portocale</p>
+                      <p class="price">3 Lei</p>
+                    </div>
+                  </div>
+               </div>
+               <div class="productElement" onclick="location.href='#';" style="cursor: pointer;">
+                <div class="productElementContainer">
+                  <img class="productElementImg" src="./img/oranges.png" alt="oranges" srcset="">
+                  <div class="productElementInfo">
+                    <p class="productElementCat">Category</p>
+                    <p class="productElementName">Suc de Portocale</p>
+                    <p class="price">3 Lei</p>
+                  </div>
+                </div>
+              </div>
+              <div class="productElement" onclick="location.href='#';" style="cursor: pointer;">
+                <div class="productElementContainer">
+                  <img class="productElementImg" src="./img/oranges.png" alt="oranges" srcset="">
+                  <div class="productElementInfo">
+                    <p class="productElementCat">Category</p>
+                    <p class="productElementName">Suc de Portocale</p>
+                    <p class="price">3 Lei</p>
+                  </div>
+               </div>
+              </div>
+               </div>
+               <div class="productsGrid">
+                <div class="productElement" onclick="location.href='#';" style="cursor: pointer;">
+                  <div class="productElementContainer">
+                    <p class="moreinfo">5kg</p>
+                    <img class="productElementImg" src="./img/oranges.png" alt="oranges" srcset="">
+                    <div class="productElementInfo">
+                      <p class="productElementCat">Category</p>
+                      <p class="productElementName">Suc de Portocale</p>
+                      <p class="price">3 Lei</p>
+                    </div>
+                  </div>
+               </div>
+               <div class="productElement" onclick="location.href='#';" style="cursor: pointer;" >
+                <div class="productElementContainer">
+                  <img class="productElementImg" src="./img/oranges.png" alt="oranges" srcset="">
+                  <div class="productElementInfo">
+                    <p class="productElementCat">Category</p>
+                    <p class="productElementName">Suc de Portocale</p>
+                    <p class="price">3 Lei</p>
+                  </div>
+                </div>
+             </div>
+             <div class="productElement" onclick="location.href='#';" style="cursor: pointer;">
+              <div class="productElementContainer">
+                <img class="productElementImg" src="./img/oranges.png" alt="oranges" srcset="">
+                <div class="productElementInfo">
+                  <p class="productElementCat">Category</p>
+                  <p class="productElementName">Suc de Portocale</p>
+                  <p class="price">3 Lei</p>
+                </div>
+              </div>
+            </div>
+            <div class="productElement" onclick="location.href='#';" style="cursor: pointer;">
+              <div class="productElementContainer">
+                <img class="productElementImg" src="./img/oranges.png" alt="oranges" srcset="">
+                <div class="productElementInfo">
+                  <p class="productElementCat">Category</p>
+                  <p class="productElementName">Suc de Portocale</p>
+                  <p class="price">3 Lei</p>
+                </div>
+             </div>
+            </div>
+             </div>
+               
+              </div>
+
+              
+
+              </div>
         </div>
     </div>
+
+</div>
+
+
+
+
+
+
 </body>
 </html>
