@@ -3,9 +3,11 @@
 fetch("https://www.fruitmap.org/api/trees")
     .then(response=> response=response.json())
          .then(data=> {
+
             let dataHtmlElements="";
             console.log(data);
              data.forEach(element => {
+
                 dataHtmlElements+=`
                 
                 
@@ -26,4 +28,10 @@ fetch("https://www.fruitmap.org/api/trees")
              dataList.innerHTML= dataHtmlElements;
          })
     .catch(error=> console.log(error))
-    
+
+    function getData(){
+      return new Promise((resolve, reject) => {
+        
+      })
+    }
+    cons

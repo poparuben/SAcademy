@@ -24,10 +24,10 @@ function changeSlide(index,slider){
     else if(index==1){
         slider.innerHTML=`
         <p>ADUCEM</p>
-        <H1>PIATA APROAPE</H1>
-        <H2>LIVRARE LA DOMICILIU2</H2>
+        <H1>LA DISPOZITIA TA</H1>
+        <H2>Contact Us now</H2>
         <br>
-         <a href="/magazin.html" class="btn btn-main">VEZI PRODUSE</a>
+         <a href="/magazin.html" class="btn btn-main">Contact </a>
         `
         // index++;
         console.log(index);
@@ -35,10 +35,10 @@ function changeSlide(index,slider){
     else if(index==2){
         slider.innerHTML=`
         <p>ADUCEM</p>
-        <H1>PIATA APROAPE</H1>
-        <H2>LIVRARE LA DOMICILIU3</H2>
+        <H1>SANATATEA TA</H1>
+        <H2>Conteaza</H2>
         <br>
-         <a href="/magazin.html" class="btn btn-main">VEZI PRODUSE</a>
+         <a href="/showPage.html" class="btn btn-main">VEZI LISTA</a>
         `
         // index=0;
         console.log(index);
