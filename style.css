@@ -88,6 +88,9 @@ body {
     
     
 }
+.slider-btn{
+    max-height: 20px;
+}
 
  .firstSectionCont{
     display: flex;
@@ -358,8 +361,9 @@ footer .colThree{
 .footerEnd{
 text-align: center;
 padding: 20px 0px;
-border-bottom-style: solid;
+
 border-top-style: solid;
+border-width: 10px;
 margin: 0px 30px;
 
 border-width: 1px;
@@ -367,7 +371,7 @@ border-width: 1px;
 .footerEnd li:nth-child(3){
     border-right-style: solid;
     
-    border-width: 1px;
+    border-width: 0.5px;
 }
 .footerEnd li{
     display:inline-block;
@@ -463,6 +467,10 @@ form h1, form p{
         
         }
    
+}
+
+#form-counter{
+    color: red;
 }
 
 .contactInfo{
@@ -561,6 +569,7 @@ iframe{
     position: sticky;   
     top:200px;
     padding-top:10px;
+    padding-bottom: 10px;
     border-radius: 10px;
     /* padding-top: 40px; */
     
@@ -641,7 +650,27 @@ iframe{
     align-items: center;
     padding: 30px 0px;
 }
+.shopPageGrid{
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.shopPageGrid .productElement{
+    background-color: #FAFBFC;
+}
+.shopPageGrid .productElement{
+    width: 24%;
+    min-width: 177px;
+    margin-bottom:20px;
+}
+@media only screen and (max-width: 1000px) {
+    .gridParentForShop .child1{
+        display: none;
+   
+    }
+}
 
+ 
 /* Dropdown Button */
 .dropbtn {
     background-color: #fff;
@@ -680,6 +709,8 @@ background-color: red;
     text-decoration: none;
     display: block;
   }
+
+  
   /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;  cursor: pointer;}
 
