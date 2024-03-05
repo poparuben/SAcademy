@@ -29,9 +29,9 @@ fetch("https://www.fruitmap.org/api/trees")
          })
     .catch(error=> console.log(error))
 
-    function getData(){
-      return new Promise((resolve, reject) => {
+    // function getData(){
+    //   return new Promise((resolve, reject) => {
         
-      })
-    }
-    cons
+    //   })
+    // }
+    // cons
