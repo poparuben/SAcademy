@@ -1,0 +1,73 @@
+.navbarstyle{
+    background-color: #0A472E ;
+}
+.navContainer{
+    background-color: #0A472E;
+}
+.navbar-light{
+    background-color: #0A472E ;
+}
+.divider{
+    height: 100px;
+}
+footer{
+    padding: 40px 0px; 
+    background-color: #0A472E; 
+    color: white;
+}
+.footer_pages{
+    text-align: center
+}
+.footer_pages ul{
+   list-style: none; text-decoration: none;
+}
+.footer_pages ul li a{
+    color: white;
+}
+.footer_3_col{
+    text-align: end
+}
+.footer_3_col ul{
+    list-style: none;
+}
+.b_footer{
+    padding: 20px 0px;
+}
+.defaultBtn{
+
+    background-color:#5D8930;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin:10px 0px;
+    display: inline-block;
+    max-width: min-content;
+
+}
+.defaultBtn:hover{
+    background-color:#4c7028;
+}
+.elements_from_slider{
+    top: 0;
+    align-items: center;
+}
+.newsletter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
