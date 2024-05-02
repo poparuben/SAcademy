@@ -1,0 +1,30 @@
+
+    body {
+      background-color: #222;
+      color: #fff;
+    }
+    .navbar {
+      background-color: #333 !important;
+    }
+    .list-group-item {
+      background-color: #444 !important;
+      color: #fff !important;
+    }
+    .list-group-item.active {
+      background-color: #555 !important;
+      border-color: #555 !important;
+    }
+
+     /* Stilizare pentru cardurile produselor */
+     .product-card {
+      margin-bottom: 20px;
+      height: auto;
+    }
+
+    .product-img {
+      max-width: 100px; /* Lățimea imaginii mici */
+      height: auto;
+    }
+    .card{
+      background-color: #444444;
+    }
